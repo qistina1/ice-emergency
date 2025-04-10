@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.police { background: #3498db; }
+.hospital { background: #e74c3c; }
+.fire { background: #f39c12; }
+.voice { 
+    background: #9b59b6;
+    width: 80%;
+}
+
+.language-selector {
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.note {
+    font-size: 13px;
+    color: #777;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    .btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+}

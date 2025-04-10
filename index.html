@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🆘 ICE - Malaysia Emergency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">🆘 ICE - Kecemasan Malaysia</h1>
+        <p id="subtitle">Hubungan kecemasan satu tekan:</p>
+        
+        <div class="buttons">
+            <a href="tel:999" class="btn police" id="police-btn">🚔 <span id="police-text">Polis (999)</span></a>
+            <a href="tel:999" class="btn hospital" id="hospital-btn">🏥 <span id="hospital-text">Ambulans (999/112)</span></a>
+            <a href="tel:994" class="btn fire" id="fire-btn">🚒 <span id="fire-text">Bomba (994)</span></a>
+        </div>
+
+        <button id="voice-btn" class="btn voice">🎤 Arahan Suara</button>
+
+        <select id="language-selector" class="language-selector">
+            <option value="ms">Bahasa Melayu</option>
+            <option value="en">English</option>
+            <option value="zh">中文 (Mandarin)</option>
+        </select>
+
+        <p class="note" id="note">⚠️ Nombor kecemasan: Polis (999) | Ambulans (999/112) | Bomba (994)</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
